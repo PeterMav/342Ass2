@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D007C7A91CDF20A900889CF6 /* ScrapBookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D007C7A81CDF20A900889CF6 /* ScrapBookModel.swift */; };
+		D007C7AB1CDF47C200889CF6 /* CollectionListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D007C7AA1CDF47C200889CF6 /* CollectionListViewController.swift */; };
+		D007C7AD1CDF4A9600889CF6 /* ClippingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D007C7AC1CDF4A9600889CF6 /* ClippingListViewController.swift */; };
 		D0AF4BA71CDF017F00ACAFA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AF4BA61CDF017F00ACAFA7 /* AppDelegate.swift */; };
 		D0AF4BA91CDF017F00ACAFA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AF4BA81CDF017F00ACAFA7 /* ViewController.swift */; };
 		D0AF4BAC1CDF017F00ACAFA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0AF4BAA1CDF017F00ACAFA7 /* Main.storyboard */; };
@@ -41,6 +43,8 @@
 
 /* Begin PBXFileReference section */
 		D007C7A81CDF20A900889CF6 /* ScrapBookModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrapBookModel.swift; sourceTree = "<group>"; };
+		D007C7AA1CDF47C200889CF6 /* CollectionListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionListViewController.swift; sourceTree = "<group>"; };
+		D007C7AC1CDF4A9600889CF6 /* ClippingListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClippingListViewController.swift; sourceTree = "<group>"; };
 		D0AF4BA31CDF017E00ACAFA7 /* 342Ass2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 342Ass2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0AF4BA61CDF017F00ACAFA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0AF4BA81CDF017F00ACAFA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -111,8 +115,10 @@
 			children = (
 				D0AF4BA61CDF017F00ACAFA7 /* AppDelegate.swift */,
 				D0AF4BA81CDF017F00ACAFA7 /* ViewController.swift */,
+				D007C7AA1CDF47C200889CF6 /* CollectionListViewController.swift */,
 				D007C7A81CDF20A900889CF6 /* ScrapBookModel.swift */,
 				D0AF4BAA1CDF017F00ACAFA7 /* Main.storyboard */,
+				D007C7AC1CDF4A9600889CF6 /* ClippingListViewController.swift */,
 				D0AF4BB01CDF017F00ACAFA7 /* Assets.xcassets */,
 				D0AF4BB21CDF017F00ACAFA7 /* LaunchScreen.storyboard */,
 				D0AF4BB51CDF017F00ACAFA7 /* Info.plist */,
@@ -280,7 +286,9 @@
 				D0AF4BE71CDF0E7000ACAFA7 /* Collection+CoreDataProperties.swift in Sources */,
 				D007C7A91CDF20A900889CF6 /* ScrapBookModel.swift in Sources */,
 				D0AF4BA91CDF017F00ACAFA7 /* ViewController.swift in Sources */,
+				D007C7AB1CDF47C200889CF6 /* CollectionListViewController.swift in Sources */,
 				D0AF4BA71CDF017F00ACAFA7 /* AppDelegate.swift in Sources */,
+				D007C7AD1CDF4A9600889CF6 /* ClippingListViewController.swift in Sources */,
 				D0AF4BEA1CDF0E7000ACAFA7 /* Clipping.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
